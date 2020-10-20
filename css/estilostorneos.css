@@ -1,0 +1,809 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif; }
+
+html {
+  font-family: 'Montserrat', sans-serif; }
+
+html, body {
+  margin: 0; }
+
+h2 {
+  color: #182272;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1rem 0 1rem 1rem;
+  margin: 0px; }
+
+.menu {
+  background-color: #242B64;
+  height: 4rem;
+  width: 100%;
+  display: block; }
+
+.menu .menu-title {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #08f26e;
+  text-transform: none;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 2rem;
+  line-height: 3.6rem;
+  display: block;
+  float: left; }
+
+.menu ul {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-end;
+  margin: 0px 50px; }
+
+.menu ul li {
+  list-style-type: none;
+  margin: 0px 16px 0px 0px; }
+
+.menu ul li a {
+  color: #08f26e;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-decoration: none; }
+
+.menu ul li a:hover {
+  color: white; }
+
+.slider-home {
+  display: block;
+  height: 650px;
+  width: 100%;
+  background-image: url(Imagenes/slider-image1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.slider-home p {
+  display: inline-block;
+  margin-left: 38px;
+  margin-top: 339px;
+  margin-bottom: 0px;
+  font-size: 4rem;
+  font-weight: 800;
+  color: #242B64;
+  background: #ffff008f;
+  animation-name: titulo_slider;
+  animation-iteration-count: initial;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 0s; }
+
+@keyframes titulo_slider {
+  from {
+    margin-left: 55%; }
+  to {
+    margin-left: 0%; } }
+
+.slider-home span {
+  display: inline-block;
+  margin-left: 38px;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-top: 10px; }
+
+.table-home th, td {
+  color: #242B64;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd; }
+
+.table-home th {
+  background-color: #242B64;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+  color: white; }
+
+.table-home, .table-gallery {
+  color: black;
+  font-size: 10px;
+  text-align: left;
+  width: 500px; }
+
+.form-home {
+  width: 380px; }
+
+.legend {
+  font-size: 25px;
+  font-weight: bold;
+  color: blank;
+  text-transform: uppercase; }
+
+.form-title {
+  color: grey;
+  font-size: 15px; }
+
+.form-options {
+  font-size: 10px; }
+
+h3 {
+  font-size: 14px;
+  font-weight: 800; }
+
+option {
+  font-size: 12px;
+  font-weight: 200; }
+
+.selector-torneo-stats .form-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black; }
+
+.selector-torneo-stats .form-options {
+  font-size: 16px; }
+
+.upload-button {
+  font-size: 13px;
+  font-weight: 800; }
+
+.inscription-legend {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.tables {
+  display: block;
+  height: 245px; }
+
+.tables .selector-torneo {
+  display: block;
+  height: 50px; }
+
+.tables .selector-torneo .form-options {
+  height: 20px;
+  position: absolute;
+  left: 50%; }
+
+.tables .tables2 {
+  height: 130px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: stretch;
+  margin: 0px 0px; }
+
+.tabla-resultados, .tabla-posiciones, .tabla-goleadores {
+  display: inline-block;
+  height: 130px;
+  width: 400px; }
+
+.table-home {
+  display: block;
+  width: 100%; }
+
+.table-home a {
+  display: inline;
+  position: absolute;
+  clear: left; }
+
+.more-tables {
+  height: 20px;
+  width: 140px;
+  display: inline-block;
+  background-color: #08f26e;
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+  border-radius: 10px; }
+
+.more-tables a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #182272;
+  font-weight: 500; }
+
+.more-tables a:hover {
+  color: white; }
+
+.slider-sponsors {
+  background-color: lightgrey;
+  padding: 2rem 0rem; }
+
+.slider-sponsors .sponsor {
+  height: 50px;
+  width: 100px; }
+
+.home-sedes {
+  height: 650px;
+  background-image: url(Imagenes/sedes-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.home-sedes .selector-sede {
+  height: 50px; }
+
+.home-sedes .form-options {
+  display: inline-block;
+  height: 20px;
+  position: absolute;
+  left: 50%; }
+
+.sede {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch; }
+
+.contact-form {
+  display: block;
+  width: 100%; }
+
+.contact-form .contacto {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.contact-form .contacto .form-home {
+  height: 100%;
+  width: 80%; }
+
+.form1, .form2 {
+  height: 100%;
+  width: 50%;
+  display: block;
+  float: left; }
+
+form fieldset {
+  padding: 20px; }
+
+#mensaje-home {
+  width: 100%;
+  height: 126px; }
+
+.form1 .form-options {
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.03);
+  border-radius: .3em;
+  background-size: .65em auto, 100%;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #444;
+  line-height: 1.3;
+  width: 300px;
+  max-width: 100%; }
+
+.form1 .form-options::-ms-expand {
+  display: none; }
+
+.form1 .form-options:hover {
+  border-color: #888; }
+
+.form1 .form-options:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222;
+  outline: none; }
+
+.form1 .form-options option {
+  font-weight: normal; }
+
+.sede-btn {
+  background-color: #182272; }
+
+.sede-btn:hover {
+  background: #08f26e;
+  color: #182272; }
+
+.inscription {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-content: center; }
+
+.inscription .inscription-form, .inscription .contact-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+  padding: 0px 50px 50px 50px; }
+
+.inscription .inscription-form .form-home {
+  align-content: center;
+  justify-content: center; }
+
+.estado-partido {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  text-align: center; }
+
+.match-result {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  text-align: center; }
+
+.match-result {
+  text-align: left; }
+
+.posicion, .equipo, .puntos {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  text-align: center; }
+
+.titular {
+  background-color: #182272;
+  justify-self: stretch;
+  padding: 2px 0px 2px 20px;
+  align-self: stretch;
+  font-size: 15px;
+  color: white;
+  font-weight: bold; }
+
+.goleador, .goles {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  text-align: center; }
+
+.goleador {
+  text-align: left;
+  padding-left: 40px; }
+
+.titular.goals {
+  padding-left: 0px;
+  margin: 0px;
+  text-align: center; }
+
+.images-gallery a, .video-gallery a {
+  text-decoration: none; }
+
+.images-gallery, .video-gallery {
+  display: inline-block;
+  width: 50%;
+  margin: 0px;
+  padding: 0px; }
+
+.images-gallery {
+  float: left; }
+
+.selector-torneo-stats {
+  display: block; }
+
+.portada-imagenes {
+  width: 100%;
+  height: 300px;
+  float: left; }
+
+.portada-videos {
+  width: 100%;
+  height: 300px;
+  display: inline-block; }
+
+.container h2 {
+  color: #182272;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1rem 0 1rem 1rem;
+  margin: 0px; }
+
+.selector-torneo-stats .container {
+  margin-bottom: 1rem; }
+
+thead {
+  background-color: #08f26e; }
+
+.table td, .table th {
+  border-bottom: 1px solid #dee2e6; }
+
+.live-selector {
+  margin-bottom: 10px; }
+
+.live-match {
+  padding-bottom: 30px; }
+
+.gallery-table {
+  margin-top: 15px; }
+
+.bg-light {
+  background-color: #182272 !important; }
+
+.navbar-light .navbar-brand h1 {
+  color: #08f26e;
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0px; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #08f26e; }
+
+.navbar-light .navbar-nav .nav-link:hover, a#navbarDropdown:hover {
+  color: white; }
+
+.navbar-light .navbar-brand:hover {
+  color: #08f26e; }
+
+.dropdown-menu {
+  background-color: #182272;
+  color: #08f26e; }
+
+.dropdown-item, a#navbarDropdown {
+  color: #08f26e; }
+
+.footer-bs {
+  background-color: #3c3d41;
+  padding: 60px 40px;
+  color: white;
+  border-top-left-radius: 0px; }
+
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns {
+  padding: 10px 25px; }
+
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns {
+  border-color: transparent; }
+
+.footer-bs .footer-brand h2 {
+  margin: 0px 0px 10px; }
+
+.footer-bs .footer-brand p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7); }
+
+.footer-bs .footer-nav ul.pages {
+  list-style: none;
+  padding: 0px; }
+
+.footer-bs .footer-nav ul.pages li {
+  padding: 5px 0px; }
+
+.footer-bs .footer-nav ul.pages a {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.footer-bs .footer-nav ul.pages a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none; }
+
+.footer-bs .footer-nav h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 10px; }
+
+.footer-bs .footer-nav ul.list {
+  list-style: none;
+  padding: 0px; }
+
+.footer-bs .footer-nav ul.list li {
+  padding: 5px 0px; }
+
+.footer-bs .footer-nav ul.list a {
+  color: rgba(255, 255, 255, 0.8); }
+
+.footer-bs .footer-nav ul.list a:hover {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none; }
+
+.footer-bs .footer-social ul {
+  list-style: none;
+  padding: 0px; }
+
+.footer-bs .footer-social h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
+.footer-bs .footer-social li {
+  padding: 5px 4px; }
+
+.footer-bs .footer-social a {
+  color: white; }
+
+.footer-bs .footer-social a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none; }
+
+.footer-bs .footer-ns h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 10px; }
+
+.footer-bs .footer-ns p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7); }
+
+@media (min-width: 768px) {
+  .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns {
+    border-left: solid 1px rgba(255, 255, 255, 0.1); } }
+
+.fadeInUp .col-md-4 {
+  float: left; }
+
+.footer-bs .col-md-4 {
+  padding-left: 0px; }
+
+.input-group-btn {
+  position: relative;
+  font-size: 0;
+  white-space: nowrap; }
+
+.input-group-btn > .btn {
+  position: relative; }
+
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc; }
+
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+  z-index: 2;
+  margin-left: -1px; }
+
+.input-group-btn:last-child > .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+.glyphicon-envelope:before {
+  content: "\2709"; }
+
+.submenu {
+  position: absolute;
+  display: none; }
+
+.submenu li {
+  display: block; }
+
+ul li:hover .submenu {
+  display: block;
+  background-color: #182272; }
+
+.custom-file {
+  margin-bottom: 1rem; }
+
+.download-button {
+  display: block; }
+
+textarea.form-control {
+  height: 11rem; }
+
+.inscripcion-form, .contact-form {
+  border: solid 1px lightgrey; }
+
+.inscripcion-form form, .contact-form form {
+  padding-top: 15px; }
+
+.container.inscripcion {
+  padding-bottom: 30px; }
+
+.row.inscripcion-contact {
+  justify-content: space-between;
+  padding: 0px 15px; }
+
+@media (max-width: 767px) {
+  .contact-form {
+    margin-top: 15px; } }
+
+.inscripcion-contact h4 {
+  margin-top: 15px;
+  border-bottom: solid 1px lightgrey; }
+
+@media (min-width: 768px) {
+  #nav-inscripcion {
+    background: #ff0047;
+    color: white;
+    border-radius: 22px; } }
+
+.navbar {
+  padding: .8rem 1rem; }
+
+.carousel-inner h5 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #242B64;
+  background: #ffff008f;
+  display: inline-block; }
+
+.carousel-inner p {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #ffffff; }
+
+@media (max-width: 767px) {
+  .carousel-inner h5 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #242B64;
+    background: #ffff008f;
+    display: inline-block;
+    margin-bottom: 0px; }
+  .carousel-inner p {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 0px; }
+  .carousel-indicators {
+    margin-bottom: 0.5rem; } }
+
+.home-stats {
+  margin: 2rem 1rem; }
+
+a.btn.btn-primary.home-stats-btn {
+  font-size: 0.8rem;
+  background-color: #182272; }
+
+.small-video .embed-responsive-item {
+  width: 50%; }
+
+.big-video iframe.embed-responsive-item {
+  width: 100%;
+  height: 100%; }
+
+iframe {
+  border: 0; }
+
+.big-video, .small-video {
+  margin-bottom: 15px; }
+
+.small-video-3, .small-video-4 {
+  padding-top: 2px; }
+
+.small-video-1, .small-video-2 {
+  padding-bottom: 2px; }
+
+.small-video-1, .small-video-3 {
+  padding-right: 2px; }
+
+.small-video-2, .small-video-4 {
+  padding-left: 2px; }
+
+.sedes .container {
+  margin-bottom: 2rem; }
+
+.sede-foto img, iframe.map {
+  width: 100%;
+  height: 350px; }
+
+.videos {
+  background-color: #08f26e; }
+
+.videos h2 {
+  color: #182272;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1rem 0 1rem 1rem;
+  margin: 0px; }
+
+.home-consultas .container .row {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.home-consultas .container {
+  margin-bottom: 2rem; }
+
+.teams-bar__logo img {
+  transition: transform .2s;
+  height: 3.5rem; }
+
+.teams-bar__logo img:hover {
+  transform: scale(1.3); }
+
+@media (max-width: 767px) {
+  .teams-bar__logo {
+    display: none !important; } }
+
+@media (max-width: 767px) {
+  a.btn.btn-primary.home-stats-btn {
+    width: 5rem;
+    font-size: 9px;
+    justify-content: space-evenly; } }
+
+a.btn.btn-primary.home-stats-btn:hover {
+  background: #08f26e;
+  color: #182272; }
+
+.col-md-1.teams-bar__logo {
+  margin: 5px 0px;
+  text-align: center;
+  padding: 0px 0px; }
+
+.brand-slider {
+  flex-wrap: nowrap;
+  text-align: center; }
+
+@media (max-width: 767px) {
+  .brand-slider .col-md-2.col-xs-4 {
+    margin: 0px 39px; } }
+
+.nav-pills .nav-link.active {
+  background-color: #182272; }
+
+.nav-pills .nav-link.active {
+  color: #08f26e; }
+
+.nav-pills .nav-link {
+  color: #182272; }
+
+@media (max-width: 767px) {
+  ul#pills-tab {
+    font-size: 2.5vw; } }
+
+@media (max-width: 767px) {
+  .table-positions td, .table-positions th {
+    font-size: 2.5vw;
+    padding: .5rem; } }
+
+hr.linea-divisoria-horizontal {
+  border-top: solid 1px lightgray; }
+
+@media (min-width: 768px) {
+  .tabla-resultados-goleadores {
+    margin-top: 3.5rem; } }
+
+.gallery {
+  position: relative;
+  display: inline-block; }
+
+.gallery-title {
+  position: absolute;
+  top: 68px;
+  left: 3rem; }
+
+.gallery-title h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 42px;
+  color: #182272;
+  background: #ffff008f; }
+
+.tab-fecha {
+  margin-bottom: 1rem; }
+
+.tab-fecha .nav-link.active {
+  color: #08f26e;
+  background-color: #182272;
+  border: 0.25px solid #182272; }
+
+.tab-fecha .nav-link:hover {
+  border: 0.25px solid #182272; }
+
+.tab-fecha .nav-link {
+  border: 0.25px solid #182272;
+  font-size: 10px;
+  padding: 8px; }
+
+.tab-fecha li a {
+  color: #182272;
+  background-color: 08f26e85; }
+
+.sticky-top {
+  top: -1px; }
