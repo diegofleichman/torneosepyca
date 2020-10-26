@@ -208,6 +208,8 @@
     
     </header>
 
+    <section class="pagina-formularios">
+
     <div class="container inscripcion">
 
         <h2>Anotate o dejanos tu consulta</h2>
@@ -219,19 +221,21 @@
                     <h4>¡Inscribite!</h4>
                     <form>
                         <div class="form-group">
-                          <label for="formGroupExampleInput">1. Datos de contacto</label>
-                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre y Apellido">
+                          <label class="form-encabezado" for="inscription-name">1. Datos de contacto</label>
+                          <input type="text" class="form-control" id="inscription-name" placeholder="Nombre y Apellido">
                         </div>
                         <div class="form-group">
-                          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Teléfono">
+                            <label for="inscription-telephone"></label>
+                          <input type="text" class="form-control" id="inscription-telephone" placeholder="Teléfono">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="e-mail">
+                            <label for="inscription-mail"></label>
+                            <input type="email" class="form-control" id="inscription-mail" placeholder="e-mail">
                         </div>
 
                         <div class="form-group">
-                        <label for="formGroupExampleInput">2. Selecciona un torneo</label>
-                        <select class="custom-select" required id="formGroupExampleInput">
+                        <label class="form-encabezado" for="inscription-select-tournament">2. Selecciona un torneo</label>
+                        <select class="custom-select" required id="inscription-select-tournament">
                             <option value="">Elige una opción</option>
                             <option value="1">Futbol 5 - Sede Palermo - Viernes</option>
                             <option value="2">Futbol 5 - Sede Nuñez - Viernes</option>
@@ -241,16 +245,16 @@
                           </select>
                         </div>
                         <div class="form-group">
-                            <label for="formGroupExampleInput">3. Ingresa el nombre de tu equipo</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Equipo">
+                            <label for="team-name">3. Ingresa el nombre de tu equipo</label>
+                            <input type="text" class="form-control" id="team-name" placeholder="Equipo">
                         </div>
                         <div class="form-group">
-                            <label for="formGroupExampleInput" class="download-button">4. Descargá y subí la lista de buena fé de tu equipo:</label>
+                            <label for="download-file" class="download-button">4. Descargá y subí la lista de buena fé de tu equipo:</label>
                             <a href="Archivos/lista_buena_fe.xlsx"><button type="button" class="btn btn-primary">Descargar</button></a>
                         </div>
                         <div class="form-group custom-file">
-                            <input type="file" class="custom-file-input" id="customFileLang" lang="es">
-                            <label class="custom-file-label" for="customFileLang">Seleccionar Archivo</label>
+                            <input type="file" class="custom-file-input" id="select-file" lang="es">
+                            <label class="custom-file-label" for="select-file">Seleccionar Archivo</label>
                         </div>
                         <div class="form-group">
                         <input class="btn btn-secondary" type="reset" value="Borrar Datos">
@@ -263,19 +267,21 @@
                     <h4>¡Consultanos!</h4>
                     <form>
                         <div class="form-group">
-                          <label for="formGroupExampleInput">1. Datos de contacto</label>
-                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre y Apellido">
+                          <label class="form-encabezado" for="contact-name">1. Datos de contacto</label>
+                          <input type="text" class="form-control" id="contact-name" placeholder="Nombre y Apellido">
                         </div>
                         <div class="form-group">
-                          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Teléfono">
+                            <label for="contact-telephone"></label>
+                            <input type="text" class="form-control" id="contact-telephone" placeholder="Teléfono">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="e-mail">
+                            <label for="contact-mail"></label>
+                            <input type="email" class="form-control" id="contact-mail" placeholder="e-mail">
                         </div>
 
                         <div class="form-group">
-                        <label for="formGroupExampleInput">2. Selecciona un torneo</label>
-                        <select class="custom-select" required id="formGroupExampleInput">
+                        <label class="form-encabezado" for="contact-select-tournament">2. Selecciona un torneo</label>
+                        <select class="custom-select" required id="contact-select-tournament">
                             <option value="">Elige una opción</option>
                             <option value="1">Futbol 5 - Sede Palermo - Viernes</option>
                             <option value="2">Futbol 5 - Sede Nuñez - Viernes</option>
@@ -285,8 +291,8 @@
                           </select>
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1">3. Dejanos tu mensaje...</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <label class="form-encabezado" for="area-mensaje">3. Dejanos tu mensaje...</label>
+                            <textarea class="form-control" id="area-mensaje" rows="3"></textarea>
                           </div>
                         <div class="form-group">
                         <input class="btn btn-secondary" type="reset" value="Borrar Datos">
@@ -301,6 +307,8 @@
         </div>
 
     </div>
+
+    </section>
 
 <!-- Footer -->
 

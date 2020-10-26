@@ -136,7 +136,8 @@ h3 {
 
 option {
   font-size: 12px;
-  font-weight: 200; }
+  font-weight: 500;
+  color: black; }
 
 .selector-torneo-stats .form-title {
   font-size: 20px;
@@ -528,10 +529,6 @@ thead {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.7); }
 
-@media (min-width: 768px) {
-  .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns {
-    border-left: solid 1px rgba(255, 255, 255, 0.1); } }
-
 .fadeInUp .col-md-4 {
   float: left; }
 
@@ -593,7 +590,8 @@ textarea.form-control {
   height: 11rem; }
 
 .inscripcion-form, .contact-form {
-  border: solid 1px lightgrey; }
+  border: solid 1px lightgrey;
+  background-color: white; }
 
 .inscripcion-form form, .contact-form form {
   padding-top: 15px; }
@@ -605,19 +603,9 @@ textarea.form-control {
   justify-content: space-between;
   padding: 0px 15px; }
 
-@media (max-width: 767px) {
-  .contact-form {
-    margin-top: 15px; } }
-
 .inscripcion-contact h4 {
   margin-top: 15px;
   border-bottom: solid 1px lightgrey; }
-
-@media (min-width: 768px) {
-  #nav-inscripcion {
-    background: #ff0047;
-    color: white;
-    border-radius: 22px; } }
 
 .navbar {
   padding: .8rem 1rem; }
@@ -632,23 +620,11 @@ textarea.form-control {
 .carousel-inner p {
   font-size: 2rem;
   font-weight: 800;
-  color: #ffffff; }
+  color: #ffffff;
+  margin-bottom: 0px; }
 
-@media (max-width: 767px) {
-  .carousel-inner h5 {
-    font-size: 1.4rem;
-    font-weight: 800;
-    color: #242B64;
-    background: #ffff008f;
-    display: inline-block;
-    margin-bottom: 0px; }
-  .carousel-inner p {
-    font-size: 0.8rem;
-    font-weight: 800;
-    color: #ffffff;
-    margin-bottom: 0px; }
-  .carousel-indicators {
-    margin-bottom: 0.5rem; } }
+.carousel-indicators {
+  margin-bottom: 0.5rem; }
 
 .home-stats {
   margin: 2rem 1rem; }
@@ -689,8 +665,11 @@ iframe {
   width: 100%;
   height: 350px; }
 
+.sede-foto img {
+  object-fit: cover; }
+
 .videos {
-  background-color: #08f26e; }
+  background-image: url("home-videos-background.jpg"); }
 
 .videos h2 {
   color: #182272;
@@ -707,8 +686,19 @@ iframe {
   margin-left: 15px;
   margin-right: 15px; }
 
-.home-consultas .container {
+section.home-consultas, .pagina-formularios {
+  background-image: url("home-background.svg"); }
+
+.home-consultas .contact-form {
   margin-bottom: 2rem; }
+
+.pagina-formularios .inscripcion-form {
+  background-color: #ff0047;
+  color: white; }
+
+.pagina-formularios .contact-form {
+  background-color: #182272;
+  color: white; }
 
 .teams-bar__logo img {
   transition: transform .2s;
@@ -716,16 +706,6 @@ iframe {
 
 .teams-bar__logo img:hover {
   transform: scale(1.3); }
-
-@media (max-width: 767px) {
-  .teams-bar__logo {
-    display: none !important; } }
-
-@media (max-width: 767px) {
-  a.btn.btn-primary.home-stats-btn {
-    width: 5rem;
-    font-size: 9px;
-    justify-content: space-evenly; } }
 
 a.btn.btn-primary.home-stats-btn:hover {
   background: #08f26e;
@@ -740,10 +720,6 @@ a.btn.btn-primary.home-stats-btn:hover {
   flex-wrap: nowrap;
   text-align: center; }
 
-@media (max-width: 767px) {
-  .brand-slider .col-md-2.col-xs-4 {
-    margin: 0px 39px; } }
-
 .nav-pills .nav-link.active {
   background-color: #182272; }
 
@@ -753,21 +729,8 @@ a.btn.btn-primary.home-stats-btn:hover {
 .nav-pills .nav-link {
   color: #182272; }
 
-@media (max-width: 767px) {
-  ul#pills-tab {
-    font-size: 2.5vw; } }
-
-@media (max-width: 767px) {
-  .table-positions td, .table-positions th {
-    font-size: 2.5vw;
-    padding: .5rem; } }
-
 hr.linea-divisoria-horizontal {
   border-top: solid 1px lightgray; }
-
-@media (min-width: 768px) {
-  .tabla-resultados-goleadores {
-    margin-top: 3.5rem; } }
 
 .gallery {
   position: relative;
@@ -805,5 +768,70 @@ hr.linea-divisoria-horizontal {
   color: #182272;
   background-color: 08f26e85; }
 
-.sticky-top {
-  top: -1px; }
+.torneos-tabla-lateral thead {
+  background-color: #182272;
+  color: #08f26e; }
+
+label {
+  margin: 0px; }
+
+.form-encabezado {
+  margin-bottom: 0.5rem; }
+
+/*media queries*/
+@media (min-width: 768px) {
+  .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns {
+    border-left: solid 1px rgba(255, 255, 255, 0.1); } }
+
+@media (max-width: 767px) {
+  .contact-form {
+    margin-top: 15px; } }
+
+@media (min-width: 768px) {
+  #nav-inscripcion {
+    background: #ff0047;
+    color: white;
+    border-radius: 22px; } }
+
+@media (max-width: 767px) {
+  .carousel-inner h5 {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #242B64;
+    background: #ffff008f;
+    display: inline-block;
+    margin-bottom: 0px; } }
+
+@media (max-width: 767px) {
+  .teams-bar__logo {
+    display: none !important; } }
+
+@media (max-width: 767px) {
+  a.btn.btn-primary.home-stats-btn {
+    width: 5rem;
+    font-size: 9px;
+    justify-content: space-evenly; } }
+
+@media (max-width: 767px) {
+  .brand-slider .col-md-2.col-xs-4 {
+    margin: 0px 39px; } }
+
+@media (max-width: 767px) {
+  ul#pills-tab {
+    font-size: 2.5vw; } }
+
+@media (max-width: 767px) {
+  .table-positions td, .table-positions th {
+    font-size: 2.5vw;
+    padding: .5rem; } }
+
+@media (min-width: 768px) {
+  .torneos-tabla-lateral {
+    margin-top: 3.5rem; } }
+
+@media (max-width: 767px) {
+  .carousel-inner p {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 0px; } }
